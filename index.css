@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sofadi One", system-ui;
+}
+.portada{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url(DSC00376.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+.titulo{
+    display: flex;
+    height: 70%;
+    align-items: center;
+    text-align: center;
+}
+.columna{
+    flex-basis: 45%;
+}
+h1{
+    color: #bf941c;
+    font-size: 80px;
+}
+p{
+    color:azure;
+    font-size: 20px;
+    line-height: 20px;
+}
+.sector{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 20px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.sector1{
+    background-image: url(IMG-20240814-WA0017.jpg);
+}
+.sector2{
+    background-image: url(IMG-20240814-WA0019.jpg);
+}
+
+.sector3{
+    background-image: url(DSC00699.JPG);
+}
+.sector:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: rgb(15,12,12);
+    text-shadow: 0 0 5px #999;
+}
+.sector p{
+    text-shadow: 0 0 15px #000;
+    font-size: 10px;
+}
