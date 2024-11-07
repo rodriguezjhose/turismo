@@ -6,13 +6,13 @@
 }
 
 body{
-    background: #636374;
+    background: #ccc6c6;
     overflow: hidden;
 }
 .portada{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url(DSC00376.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url(IMG-20240821-WA0001.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -25,7 +25,7 @@ body{
     align-items: center;
 }
 .logo{
-    width: 150px;
+    width: 50px;
     cursor: pointer;
 }
 nav{
@@ -39,7 +39,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #f1f1f0;
+    color: blanchedalmond;
     font-size: 20px;
 }
 
@@ -50,8 +50,8 @@ nav ul li a{
     transform: translate(-50%, -50%);
     width: 1000px;
     height: 500px;
-    background: #51618f;
-    box-shadow: 0 30px 50px #b25d5d;
+    background: #f5f5f5;
+    box-shadow: 0 30px 50px #dbdbdb;
 }
 
 .container .slide .item{
@@ -103,7 +103,7 @@ nav ul li a{
     left: 100px;
     width: 300px;
     text-align: left;
-    color: #54e455;
+    color: #eee;
     transform: translate(0, -50%);
     font-family: system-ui;
     display: none;
@@ -124,6 +124,9 @@ nav ul li a{
 }
 
 .content .des{
+    font-size: 15px;
+    text-align: justify;
+    text-shadow: 2px 2px 2px rgb(19, 18, 18);
     margin-top: 10px;
     margin-bottom: 20px;
     opacity: 0;
@@ -174,6 +177,6 @@ nav ul li a{
 }
 
 .button button:hover{
-    background: #352beb;
+    background: #ababab;
     color: #fff;
 }
